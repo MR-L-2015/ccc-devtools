@@ -543,7 +543,7 @@ let app = new Vue({
         }
     },
     created: function () {
-        this.checkVersion();
+        //this.checkVersion();
         document.body.insertBefore(document.getElementById('app'), document.body.firstChild);
 
         let onCCInit = () => {
